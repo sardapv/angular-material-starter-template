@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
+
+body {
+  @apply font-primary;
+  @apply text-sm;
+  @apply not-italic;
+  @apply font-light;
+  line-height: 1.3;
+
+  /* scrollbar theme overridden with below theme */
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  /* Handle, default i.e will not go below this dimensions */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-grey-500;
+    width: 100px;
+    height: 100px;
+  }
+
+  ::-webkit-scrollbar-corner {
+    @apply bg-transparent;
+  }
+
+  /* Thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-grey-500;
+  }
+
+  /* For mobile taps, remove blue tap */
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ellipsis {
+  @apply overflow-hidden;
+  @apply whitespace-nowrap;
+  @apply overflow-ellipsis;
+}
