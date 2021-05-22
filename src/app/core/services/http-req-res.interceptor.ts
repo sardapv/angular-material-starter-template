@@ -36,7 +36,7 @@ export class HTTPReqResInterceptor implements HttpInterceptor {
     return next.handle(newReq).pipe(
       tap((e) => {
         if (e instanceof HttpResponse) {
-          this.successHandler(e.body);
+          this.handleSuccess(e.body);
         }
       }),
       catchError((err) => this.handleError(newReq, next, err)),
@@ -44,10 +44,6 @@ export class HTTPReqResInterceptor implements HttpInterceptor {
         this._broadcaster.broadcast(CONSTANTS.SHOW_LOADER, false);
       })
     );
-  }
-
-  successHandler(body: any) {
-    /* if anything to do with success here */
   }
 
   handleError(newRequest: HttpRequest<any>, next: HttpHandler, err: any) {
