@@ -2,9 +2,7 @@
 
 This repo is starter template with must have features/dependencies so that you don't need to write from scratch.
 
-```
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png" alt="drawing" width="200" height="200"/>
-```
+<img src="https://user-images.githubusercontent.com/14892874/119226913-1e386e00-bb29-11eb-8d54-d64ce453f5f6.png" width="200" height="200">
 
 This project is generated using latest Angular CLI 12.0.0
 
