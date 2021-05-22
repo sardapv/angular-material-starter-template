@@ -10,7 +10,7 @@ To start with open this project and replace '**project-name**' with _your_projec
 
 # This project is starter kit with below features
 
-- Project Structure inspired form [Rik De Vos blog](https://medium.com/dev-jam/5-tips-best-practices-to-organize-your-angular-project-e900db08702e)
+- Project Structure inspired form [Rik De Vos's blog](https://medium.com/dev-jam/5-tips-best-practices-to-organize-your-angular-project-e900db08702e)
 
   - common annotations like @shared, @feature, @core added in tsconfig.json
   - tsconfig.app.json moved inside src
@@ -33,7 +33,7 @@ To start with open this project and replace '**project-name**' with _your_projec
   - getTokens
   - logout
 
-- HTTP Request Interceptor with
+- HTTP Request Interceptor extended to and inspired from [Rich Franzmeier's blog](https://www.intertech.com/author/rich-franzmeier/ 'Posts by Rich Franzmeier')
 
   - request cloner
   - header modifier
@@ -55,7 +55,6 @@ To start with open this project and replace '**project-name**' with _your_projec
 
 - pollyfills '_web-animations-js_' added for animations support inside _@Component_ decorator
 - Styles folder with subfolder added inside stylePreprocessorOption (angular.json)
-
 - PurgeCSS post-build script (to be added soon)
 - webpack-bundle-analyzer and source-map-explorer quickstart (to be added soon)
 - local prod-build host and run (to be added soon)
