@@ -78,8 +78,8 @@ To start with open this project and replace '**project-name**' with _your_projec
   - Angular Material Icons added
   - Default Poppins, OpenSans font integrated
 
-- pollyfills '_web-animations-js_' added for animations support inside _@Component_ decorator for safari
+- pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
 - Styles folder with subfolder added inside stylePreprocessorOption (angular.json)
+- local prod-build host and run (run `npm run prod-test`)
 - PurgeCSS post-build script (to be added soon)
 - webpack-bundle-analyzer and source-map-explorer quickstart (to be added soon)
-- local prod-build host and run (to be added soon)
