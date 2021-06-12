@@ -82,4 +82,4 @@ To start with open this project and replace '**project-name**' with _your_projec
 - Styles folder with subfolder added inside stylePreprocessorOption (angular.json)
 - local prod-build host and run (run `npm run prod-test`)
 - PurgeCSS post-build script (to be added soon)
-- webpack-bundle-analyzer and source-map-explorer quickstart (to be added soon)
+- webpack-bundle-analyzer and source-map-explorerc configured (run `npm run source` or `npm run webpack-analyze` , you choose 😉)

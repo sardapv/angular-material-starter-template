@@ -7,6 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "prod-test": "ng build --prod && serve -s dist/",
+    "source": "ng build --prod && ./node_modules/.bin/source-map-explorer dist/*.js",
+    "webpack-analyze": "ng build --stats-json && ./node_modules/.bin/webpack-bundle-analyzer dist/stats.json",
     "test": "ng test"
   },
   "private": true,
@@ -44,6 +46,9 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
     "serve": "^12.0.0",
-    "typescript": "~4.2.3"
+    "source-map-explorer": "^2.5.2",
+    "typescript": "~4.2.3",
+    "webpack-bundle-analyzer": "^4.4.1"
+    
   }
 }
