@@ -35,8 +35,6 @@ To start with open this project and replace '**project-name**' with _your_projec
 
            this._broadcatser.listen('mykey').subscribe({
                 next:(data) => console.log(data) // your broadcasted value
-                /* use this service with takeUntil from rxJS and local Subject &
-                destroy in OnDestroy to prevent memory leaks */
               })
             }
 
