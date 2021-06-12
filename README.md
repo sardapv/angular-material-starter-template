@@ -67,7 +67,7 @@ To start with open this project and replace '**project-name**' with _your_projec
 
 - Tailwind and Custom Configuration
 
-  - sample tailwind configuration with font, theme and other properties
+  - sample tailwind configuration with font, theme and other properties (tailwind.config.js)
 
 - Angular Material Component & CDK integrated
 

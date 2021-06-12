@@ -1,3 +1,5 @@
+/* refer for more details https://tailwindcss.com/docs/configuration */
+
 module.exports = {
   purge: [],
   darkMode: false,
@@ -35,20 +37,16 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       primary: {
-        50: '#fdebeb',
-        100: '#facece',
-        200: '#f7adad',
-        300: '#f48c8c',
-        400: '#f17374',
-        500: '#ef5a5b',
-        600: '#ed5253',
-        700: '#eb4849',
-        800: '#e83f40',
-        900: '#e42e2f',
-        A100: '#ffffff',
-        A200: '#fff2f2',
-        A400: '#ffbfc0',
-        A700: '#ffa6a6',
+        50 : '#edeaf4',
+        100 : '#d1cae5',
+        200 : '#b3a7d3',
+        300 : '#9583c1',
+        400 : '#7e69b4',
+        500 : '#674ea7',
+        600 : '#5f479f',
+        700 : '#543d96',
+        800 : '#4a358c',
+        900 : '#39257c',
       },
       secondary: {
         50: '#e3e5e8',
