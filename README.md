@@ -12,15 +12,20 @@ To start with open this project and replace '**project-name**' with _your_projec
 
 - Project Structure inspired form [Rik De Vos's blog](https://medium.com/dev-jam/5-tips-best-practices-to-organize-your-angular-project-e900db08702e)
 
-  - common annotations like @shared, @feature, @core added in tsconfig.json
-  - tsconfig.app.json moved inside src
   - prod configuration setup and env with baseURL field injected in app.module
   - 3 main modules (extended notes to be added soon) -
 
+    - common annotations like @shared, @feature, @core added in tsconfig.json
+
     - CoreModule - only to be imported in Appmodule
 
+      - Auth Guard
+
       - A broadcaster service included which listens to your key:value pair of events anywhere in app. Here is how to use
-      - `constructor(private _broadcatser: BroadcasterService) {}`
+
+        - ```ts
+          constructor(private _broadcatser: BroadcasterService) {}
+          ```
 
         - to broadcast and listen anywhere
 
@@ -33,11 +38,10 @@ To start with open this project and replace '**project-name**' with _your_projec
            * destroy in OnDestroy to prevent memory leaks
            */
 
-           this._broadcatser.listen('mykey').subscribe({
-                next:(data) => console.log(data) // your broadcasted value
-              })
-            }
-
+          this._broadcatser.listen('mykey').subscribe({
+              next:(data) => console.log(data) // your broadcasted value
+            })
+          }
           ```
 
     - FeatureModule - all lazyloaded pages/modules goes here
@@ -62,6 +66,7 @@ To start with open this project and replace '**project-name**' with _your_projec
 
 - HTTP Request Interceptor extended to and inspired from [Rich Franzmeier's blog](https://www.intertech.com/author/rich-franzmeier/ 'Posts by Rich Franzmeier')
 
+  - just provide base url in environment.ts and api paths in service.ts use for e.g '/action/endpoint'
   - request cloner
   - header modifier
   - success and error handler
@@ -83,5 +88,8 @@ To start with open this project and replace '**project-name**' with _your_projec
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
 - Styles folder with subfolder added inside stylePreprocessorOption (angular.json)
 - local prod-build host and run (run `npm run prod-test`)
-- PurgeCSS post-build script (to be added soon)
+- PurgeCSS post-build script for tiny css in kbs (`npm run purgecss`)
+
+  - Run `npm run final-build` which takes care of prod build and purge script together
+
 - webpack-bundle-analyzer and source-map-explorerc configured (run `npm run source` or `npm run webpack-analyze` , you choose 😉)

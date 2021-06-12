@@ -34,6 +34,10 @@ export class AuthService {
     });
   }
 
+  isLoggedIn() {
+    return this.getToken() ? true : false; // add your strong logic
+  }
+
   storeToken(token: AuthToken) {
     localStorage.setItem('token', token.access_token);
     localStorage.setItem(CONSTANTS.REFRESH_TOKEN, token.refresh_token);
