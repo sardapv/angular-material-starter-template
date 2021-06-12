@@ -39,11 +39,15 @@ To start with open this project and replace '**project-name**' with _your_projec
           ```
 
     - FeatureModule - all lazyloaded pages/modules goes here
-      - beforelogin modules
-      - afterlogin modules
+
+      - before-login modules
+      - after-login modules
+
     - SharedModule - only to be shared and imported in feature modules
+
       - Can have custom components as SCAM
-      - Custom Pipes, Directives, Components, Models, Validators
+        (sample scam component as independent module included: recommended (rather than creating big shared module))
+      - Custom Pipes, Directives, Components, Models, Validators folders to organise
       - index.ts provided for shared.module.ts (to organise imports)
 
 - Basic Auth service like (Refer model in model folder & change accordingly)
@@ -67,14 +71,14 @@ To start with open this project and replace '**project-name**' with _your_projec
 
 - Angular Material Component & CDK integrated
 
-  - Material theme starter pack included, just change colors
+  - Material theme starter pack included, just change colors inside `_mat_\*.scss` files
 
-- Icons and Typography (CDN - index.html)
+- Icons and Typography (CDN links - index.html)
 
   - Angular Material Icons added
   - Default Poppins, OpenSans font integrated
 
-- pollyfills '_web-animations-js_' added for animations support inside _@Component_ decorator
+- pollyfills '_web-animations-js_' added for animations support inside _@Component_ decorator for safari
 - Styles folder with subfolder added inside stylePreprocessorOption (angular.json)
 - PurgeCSS post-build script (to be added soon)
 - webpack-bundle-analyzer and source-map-explorer quickstart (to be added soon)
