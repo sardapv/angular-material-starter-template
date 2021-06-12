@@ -16,14 +16,35 @@ To start with open this project and replace '**project-name**' with _your_projec
   - tsconfig.app.json moved inside src
   - prod configuration setup and env with baseURL field injected in app.module
   - 3 main modules (extended notes to be added soon) -
+
     - CoreModule - only to be imported in Appmodule
+
+      - A broadcaster service included which listens to your key:value pair of events anywhere in app. Here is how to use
+      - `constructor(private _broadcatser: BroadcasterService) {}`
+
+        - to broadcast and listen anywhere
+
+          ```
+          this._broadcatser.broadcast('mykey', 'myvalue');
+
+          // to listen inside any component inject service there and
+
+           this._broadcatser.listen('mykey').subscribe({
+                next:(data) => console.log(data) // your broadcasted value
+                /* use this service with takeUntil from rxJS and local Subject &
+                destroy in OnDestroy to prevent memory leaks */
+              })
+            }
+
+          ```
+
     - FeatureModule - all lazyloaded pages/modules goes here
       - beforelogin modules
       - afterlogin modules
     - SharedModule - only to be shared and imported in feature modules
       - Can have custom components as SCAM
       - Custom Pipes, Directives, Components, Models, Validators
-      - index.ts provided for shared.module.ts
+      - index.ts provided for shared.module.ts (to organise imports)
 
 - Basic Auth service like (Refer model in model folder & change accordingly)
 
