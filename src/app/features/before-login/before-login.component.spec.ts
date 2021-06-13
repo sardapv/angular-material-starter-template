@@ -1,4 +1,5 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { SharedModule } from '../../shared/shared.module';
 
 import { BeforeLoginComponent } from './before-login.component';
 
@@ -6,12 +7,14 @@ describe('BeforeLoginComponent', () => {
   let component: BeforeLoginComponent;
   let fixture: ComponentFixture<BeforeLoginComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
-      declarations: [ BeforeLoginComponent ]
+  beforeEach(
+    waitForAsync(() => {
+      TestBed.configureTestingModule({
+        declarations: [BeforeLoginComponent],
+        imports: [SharedModule],
+      }).compileComponents();
     })
-    .compileComponents();
-  });
+  );
 
   beforeEach(() => {
     fixture = TestBed.createComponent(BeforeLoginComponent);
