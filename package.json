@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href ./ ",
     "watch": "ng build --watch --configuration development",
     "prod-test": "npm run final-build && serve -s dist/",
     "source": "ng build --sourceMap=true --namedChunks=true && ./node_modules/.bin/source-map-explorer dist/*.js",
