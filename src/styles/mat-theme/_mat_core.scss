@@ -14,8 +14,8 @@ $custom-accent: mat-palette($mat-custom-secondary);
 // The warn palette is optional (defaults to red).
 $custom-warn: mat-palette($mat-custom-warn);
 
-// Create the theme object
-$custom-theme: mat-dark-theme(
+// Create the light theme object NOTE: use mat-dark-theme if you use dark mode for your app
+$custom-theme: mat-light-theme(
   (
     color: (
       primary: $custom-primary,
