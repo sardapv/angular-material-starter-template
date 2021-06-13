@@ -1,5 +1,7 @@
 # ng-material-starter-template
 
+[![Build and Deploy](https://github.com/sardapv/ng-material-starter-template/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/sardapv/ng-material-starter-template/actions/workflows/build-deploy.yml)
+
 This repo is starter template with must have features/dependencies so that you don't need to write from scratch.
 
 <img src="https://user-images.githubusercontent.com/14892874/119226913-1e386e00-bb29-11eb-8d54-d64ce453f5f6.png" width="200" height="200">
@@ -8,7 +10,7 @@ This project is generated using latest Angular CLI 12.0.0
 
 If you like this, do give it a 🌟 ! 😊
 
-# [Sample Demo 🚀](https://sardapv.github.io/ng-material-starter-template/) 
+# [Sample Demo 🚀](https://sardapv.github.io/ng-material-starter-template/)  
 
 To start with open this project and replace '**project-name**' with _your_project_name_ across all files.
 
