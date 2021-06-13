@@ -8,6 +8,8 @@ This project is generated using latest Angular CLI 12.0.0
 
 If you like this, do give it a 🌟 ! 😊
 
+# [Sample Demo 🚀](https://sardapv.github.io/ng-material-starter-template/) 
+
 To start with open this project and replace '**project-name**' with _your_project_name_ across all files.
 
 # This project is starter kit with below features
