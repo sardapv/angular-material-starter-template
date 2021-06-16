@@ -11,7 +11,10 @@
     "webpack-analyze": "ng build --sourceMap=true --namedChunks=true --stats-json && ./node_modules/.bin/webpack-bundle-analyzer dist/stats.json",
     "purgecss": "node run-purgecss.js",
     "final-build": "npm run build && npm run purgecss",
-    "test": "ng test"
+    "test": "ng test",
+    "postinstall": "ngcc",
+    "e2e": "ng run project-name:cypress-open",
+    "e2e:ci": "ng run project-name:cypress-run"
   },
   "private": true,
   "dependencies": {
@@ -38,9 +41,12 @@
     "@angular-devkit/build-angular": "~12.0.0",
     "@angular/cli": "~12.0.0",
     "@angular/compiler-cli": "~12.0.0",
+    "@briebug/cypress-schematic": "^5.0.0",
     "@schematics/angular": "^12.0.1",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
+    "cypress": "7.5.0",
+    "dayjs": "^1.10.5",
     "jasmine-core": "~3.7.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
