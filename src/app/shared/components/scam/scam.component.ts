@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 
 @Component({
@@ -6,10 +6,6 @@ import { FormControl } from '@angular/forms';
   templateUrl: './scam.component.html',
   styleUrls: ['./scam.component.scss'],
 })
-export class ScamComponent implements OnInit {
+export class ScamComponent {
   control = new FormControl();
-
-  constructor() {}
-
-  ngOnInit(): void {}
 }

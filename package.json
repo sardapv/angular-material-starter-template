@@ -11,7 +11,8 @@
     "webpack-analyze": "ng build --sourceMap=true --namedChunks=true --stats-json && ./node_modules/.bin/webpack-bundle-analyzer dist/stats.json",
     "purgecss": "node run-purgecss.js",
     "final-build": "npm run build && npm run purgecss",
-    "test": "ng test"
+    "test": "ng test",
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
@@ -38,12 +39,20 @@
   "devDependencies": {
     "@angular-builders/jest": "12.1.0",
     "@angular-devkit/build-angular": "~12.0.0",
+    "@angular-eslint/builder": "12.1.0",
+    "@angular-eslint/eslint-plugin": "12.1.0",
+    "@angular-eslint/eslint-plugin-template": "12.1.0",
+    "@angular-eslint/schematics": "12.1.0",
+    "@angular-eslint/template-parser": "12.1.0",
     "@angular/cli": "~12.0.0",
     "@angular/compiler-cli": "~12.0.0",
     "@schematics/angular": "^12.0.1",
     "@types/jasmine": "~3.6.0",
     "@types/jest": "26.0.23",
     "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "4.23.0",
+    "@typescript-eslint/parser": "4.23.0",
+    "eslint": "^7.26.0",
     "jasmine-core": "~3.7.0",
     "jest": "27.0.4",
     "karma-coverage": "~2.0.3",
