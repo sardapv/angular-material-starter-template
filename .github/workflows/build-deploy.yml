@@ -8,9 +8,9 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-     - name: Checkout
+      - name: Checkout
         uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1 #this installs node and npm for us
         with:
           node-version: '14.x'
       - uses: actions/cache@v1
@@ -19,14 +19,10 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
-      - name: Lint
+      - name: Test
         run: |
           npm install
-          npm run lint
-      - name: Test
-      run: |
-        npm install
-        npm run test
+          npm run test
       - name: Build
         run: |
           npm install
