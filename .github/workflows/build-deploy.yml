@@ -8,7 +8,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+     - name: Checkout
         uses: actions/checkout@v1
       - name: Install node and npm
         uses: actions/setup-node@v1
@@ -24,6 +24,10 @@ jobs:
         run: |
           npm install
           npm run lint
+      - name: Test
+      run: |
+        npm install
+        npm run test
       - name: Build
         run: |
           npm install
