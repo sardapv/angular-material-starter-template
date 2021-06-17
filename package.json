@@ -11,7 +11,8 @@
     "webpack-analyze": "ng build --sourceMap=true --namedChunks=true --stats-json && ./node_modules/.bin/webpack-bundle-analyzer dist/stats.json",
     "purgecss": "node run-purgecss.js",
     "final-build": "npm run build && npm run purgecss",
-    "test": "ng test"
+    "test": "ng test",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {

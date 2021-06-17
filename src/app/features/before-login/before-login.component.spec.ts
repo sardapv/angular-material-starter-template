@@ -1,3 +1,4 @@
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { SharedModule } from '../../shared/shared.module';
 
@@ -12,6 +13,7 @@ describe('BeforeLoginComponent', () => {
       TestBed.configureTestingModule({
         declarations: [BeforeLoginComponent],
         imports: [SharedModule],
+        schemas: [CUSTOM_ELEMENTS_SCHEMA]
       }).compileComponents();
     })
   );
