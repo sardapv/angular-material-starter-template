@@ -113,6 +113,15 @@
             "scripts": []
           }
         },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+         }
+        },
         "cypress-run": {
           "builder": "@briebug/cypress-schematic:cypress",
           "options": {
@@ -153,5 +162,8 @@
       }
     }
   },
-  "defaultProject": "project-name"
+  "defaultProject": "project-name",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
