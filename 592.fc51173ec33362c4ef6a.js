@@ -1,0 +1,1 @@
+(self.webpackChunkproject_name=self.webpackChunkproject_name||[]).push([[592],{5425:(e,n,t)=>{"use strict";t.d(n,{m:()=>s});var c=t(1511),r=t(6647);let s=(()=>{class e{}return e.\u0275fac=function(n){return new(n||e)},e.\u0275mod=r.oAB({type:e}),e.\u0275inj=r.cJS({imports:[[c.ez]]}),e})()}}]);
