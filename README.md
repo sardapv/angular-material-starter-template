@@ -1,6 +1,6 @@
 # ng-material-starter-template
 
-[![Build and Deploy](https://github.com/sardapv/ng-material-starter-template/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/sardapv/ng-material-starter-template/actions/workflows/build-deploy.yml)
+[![Build and Deploy](https://github.com/sardapv/ng-material-starter-template/actions/workflows/build-deploy.yml/badge.svg?branch=main)](https://github.com/sardapv/ng-material-starter-template/actions/workflows/build-deploy.yml) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/ng-material-starter-template) ![Angular](https://img.shields.io/badge/Angular-12.0.0-red) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-2.1.2-%2306B6D4) ![Cypress](https://img.shields.io/badge/cypress-7.5.0-%23012) ![Jest](https://img.shields.io/badge/jest-27.0.4-%2316C213)
 
 This repo is starter template with must have features/dependencies so that you don't need to write from scratch.
 
@@ -10,7 +10,7 @@ This project is generated using latest Angular CLI 12.0.0
 
 If you like this, do give it a 🌟 ! 😊
 
-# [Sample Demo 🚀](https://sardapv.github.io/ng-material-starter-template/)  
+# [Sample Demo 🚀](https://sardapv.github.io/ng-material-starter-template/)
 
 To start with open this project and replace '**project-name**' with _your_project_name_ across all files.
 
@@ -22,17 +22,14 @@ To start with open this project and replace '**project-name**' with _your_projec
   - 3 main modules (extended notes to be added soon) -
 
     - common annotations like @shared, @feature, @core added in tsconfig.json
-
     - CoreModule - only to be imported in Appmodule
 
       - Auth Guard
-
       - A broadcaster service included which listens to your key:value pair of events anywhere in app. Here is how to use
 
         - ```ts
           constructor(private _broadcatser: BroadcasterService) {}
           ```
-
         - to broadcast and listen anywhere
 
           ```ts
