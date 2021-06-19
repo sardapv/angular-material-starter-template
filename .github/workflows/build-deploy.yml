@@ -24,7 +24,7 @@ jobs:
           npm install
       - name: Lint
         run: |
-          npm j
+          npm run lint
       - name: Cypress Test
         run: |
           npm run e2e:ci
