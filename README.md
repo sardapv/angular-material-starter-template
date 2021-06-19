@@ -80,7 +80,7 @@ make sure you have node and npm installed on your system before running below co
   - request cloner
   - header modifier
   - success and error handler
-  - refresh token handler (inspired from[Rich Franzmeier&#39;s blog](https://www.intertech.com/author/rich-franzmeier/ 'Posts by Rich Franzmeier'))
+  - refresh token handler (inspired from [Rich Franzmeier&#39;s blog](https://www.intertech.com/author/rich-franzmeier/ 'Posts by Rich Franzmeier'))
 
 - Tailwind and post-build PurgeCSS Configuration 😍
 
@@ -91,7 +91,7 @@ make sure you have node and npm installed on your system before running below co
 
   - Material theme starter pack included, just change colors,font inside`_mat_*.scss` files
 
-- Superpowerd with `Jest` for unit testing and `Cypress` for e2e testing (instead of karma and protractor). Special Thanks to contribution by @sjetha for this and eslint integration.
+- Superpowerd with `Jest` for unit testing and `Cypress` for e2e testing (instead of karma and protractor). Special Thanks to contribution by [@sjetha](https://github.com/sjetha) for this and eslint integration.
 - ESLint integrated as recommended by Angular
 - Icons and Typography (CDN links - index.html) 🤓
 
