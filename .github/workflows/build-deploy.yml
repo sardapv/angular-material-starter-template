@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: Lint-Tests-CypressTests-Build-Purgecss-Deploy
 
 on:
   push:
@@ -28,8 +28,9 @@ jobs:
       - name: Cypress Test
         run: |
           npm run e2e:ci
-      - name: Tests
-        uses: artiomtr/jest-coverage-report-action@v1.3
+      - name: Test
+        run: |
+          npm run test
       - name: Build
         run: |
           npm run final-build
