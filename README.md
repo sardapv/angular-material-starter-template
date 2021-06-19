@@ -4,7 +4,7 @@
 
 ![Angular](https://img.shields.io/badge/Angular-12.0.0-red) ![materialUI](https://img.shields.io/badge/angular--material-12.0.0-blue) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-2.1.2-%2306B6D4) ![Cypress](https://img.shields.io/badge/cypress-7.5.0-%23012) ![Jest](https://img.shields.io/badge/jest-27.0.4-%2316C213) ![Angular_lint](https://img.shields.io/badge/angular--eslint-12.0.1-important) ![PurgeCSS](https://img.shields.io/badge/postbuild%20purgecss-4.0.3-blueviolet) ![SourcemapExplorer](https://img.shields.io/badge/source--map--explorer-2.5.2-ff69b4) ![WebpackBundleAnalyzer](https://img.shields.io/badge/webpack--bundle--analyzer-4.4.1-yellow)
 
-![](logoForThisRepo.svg)
+![](./logoForThisRepo.svg)
 
 > This boilerplate comes with bunch of preconfigured stuffs and best practises to help you kickstart your project easier & quicker...
 
@@ -92,16 +92,13 @@ make sure you have node and npm installed on your system before running below co
   - Material theme starter pack included, just change colors,font inside`_mat_*.scss` files
 
 - Superpowerd with `Jest` for unit testing and `Cypress` for e2e testing (instead of karma and protractor). Special Thanks to contribution by @sjetha for this and eslint integration.
-
 - ESLint integrated as recommended by Angular
-
 - Icons and Typography (CDN links - index.html) 🤓
 
   - Angular Material Icons added
   - Default Poppins, OpenSans font integrated
 
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
-
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
 
 # Custom Commands 💃
