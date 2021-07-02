@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 
 it('should test after login page', () => {
-  const today = dayjs().format('M/DD/YYYY');
+  const today = dayjs().format('M/D/YYYY');
   cy.visit('/after-login');
   cy.get('.mat-focus-indicator')
     .click()
@@ -13,9 +13,6 @@ it('should test after login page', () => {
 
 it('should test before login page', () => {
   cy.visit('/before-login');
-  cy.get('.font-bold').should(
-    'have.text',
-    'This is flexbox example using tailwind'
-  );
+  cy.get('.font-bold').should('have.text', 'This is flexbox example using tailwind');
   cy.get('app-before-login > p').should('have.text', 'before-login works!');
 });
