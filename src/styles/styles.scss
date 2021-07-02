@@ -2,6 +2,8 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import './shared/global';
+@import './shared//animations';
 @import './shared/animations';
 @import './variables';
 @import './mat-theme/mat_core';
