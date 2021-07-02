@@ -1,7 +1,7 @@
 import dayjs from 'dayjs';
 
 it('should test after login page', () => {
-  const today = dayjs().format('MM/DD/YYYY');
+  const today = dayjs().format('M/D/YYYY');
   cy.visit('/after-login');
   cy.get('.mat-focus-indicator')
     .click()
