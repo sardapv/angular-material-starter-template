@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: ['Poppins'],
-      primary: ['Open Sans'],
+      secondary: ['Open Sans'],
     },
     borderRadius: {
       none: '0',
@@ -37,16 +37,16 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       primary: {
-        50 : '#edeaf4',
-        100 : '#d1cae5',
-        200 : '#b3a7d3',
-        300 : '#9583c1',
-        400 : '#7e69b4',
-        500 : '#674ea7',
-        600 : '#5f479f',
-        700 : '#543d96',
-        800 : '#4a358c',
-        900 : '#39257c',
+        50: '#edeaf4',
+        100: '#d1cae5',
+        200: '#b3a7d3',
+        300: '#9583c1',
+        400: '#7e69b4',
+        500: '#674ea7',
+        600: '#5f479f',
+        700: '#543d96',
+        800: '#4a358c',
+        900: '#39257c',
       },
       secondary: {
         50: '#e3e5e8',
