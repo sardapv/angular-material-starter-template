@@ -5,17 +5,7 @@
   "imageSize": 100,
   "commit": false,
   "contributors": [
-    {
-      "login": "sjetha",
-      "name": "Shafiq Jetha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1066864?v=4",
-      "profile": "https://github.com/sjetha",
-      "contributions": [
-        "test",
-        "code"
-      ]
-    },
-    {
+      {
       "login": "sardapv",
       "name": "Pranav Sarda",
       "avatar_url": "https://avatars.githubusercontent.com/u/14892874?v=4",
@@ -27,7 +17,17 @@
         "example",
         "design"
       ]
-    }
+    },
+    {
+      "login": "sjetha",
+      "name": "Shafiq Jetha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1066864?v=4",
+      "profile": "https://github.com/sjetha",
+      "contributions": [
+        "test",
+        "code"
+      ]
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "angular-material-starter-template",
