@@ -101,7 +101,7 @@ make sure you have node and npm installed on your system before running below co
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
 
-# Custom Commands 💃
+# There is a command for everything you need! 💃
 
 | command                   | What it does?                                                        | Thanks to Plugin                                                                       |
 | ------------------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
