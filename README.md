@@ -1,4 +1,7 @@
 # angular-material-starter-template 🍄
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sardapv/angular-material-starter-template/Lint-Tests-CypressTests-Build-Purgecss-Deploy?label=Lint-JestTests-CypressTests-Build-Purgecss-Deploy) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/angular-material-starter-template)
 
@@ -115,3 +118,23 @@ make sure you have node and npm installed on your system before running below co
 | `npm run test`            | Runs all the jests test cases                                        | [@briebug/jest-schematic](https://www.npmjs.com/package/@briebug/jest-schematic)       |
 | `npm run e2e`             | Opens up Cypress View to run your e2e tests in browser               | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
 | `npm run e2e:ci`          | Runs cypress tests in console (used for CI/CD)                       | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/sjetha"><img src="https://avatars.githubusercontent.com/u/1066864?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shafiq Jetha</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sjetha" title="Tests">⚠️</a> <a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sjetha" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
