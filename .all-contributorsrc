@@ -14,6 +14,19 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "sardapv",
+      "name": "Pranav Sarda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14892874?v=4",
+      "profile": "http://pranavsarda.hashnode.dev/about",
+      "contributions": [
+        "code",
+        "blog",
+        "doc",
+        "example",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
