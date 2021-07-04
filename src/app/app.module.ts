@@ -1,16 +1,25 @@
-import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NgModule } from '@angular/core';
-import { environment } from '@env';
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { HTTPReqResInterceptor } from '@core/services/http-req-res.interceptor';
 import { CoreModule } from '@core/core.module';
+import { HTTPReqResInterceptor } from '@core/services/http-req-res.interceptor';
+import { environment } from '@env';
+import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, AppRoutingModule, CoreModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    CoreModule,
+    HttpClientModule,
+    LoadingBarRouterModule,
+  ],
   providers: [
     { provide: 'BASE_URL', useValue: environment.baseurl },
     {

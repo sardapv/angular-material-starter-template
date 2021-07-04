@@ -1,6 +1,9 @@
 # angular-material-starter-template 🍄
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sardapv/angular-material-starter-template/Lint-Tests-CypressTests-Build-Purgecss-Deploy?label=Lint-JestTests-CypressTests-Build-Purgecss-Deploy) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/angular-material-starter-template)
@@ -95,7 +98,13 @@ make sure you have node and npm installed on your system before running below co
   - Material theme starter pack included, just change colors,font inside`_mat_*.scss` files
 
 - Superpowerd with `Jest` for unit testing and `Cypress` for e2e testing (instead of karma and protractor). Special Thanks to contribution by [@sjetha](https://github.com/sjetha) for this and eslint integration.
+
 - ESLint integrated as recommended by Angular
+
+- Global route-loader progressbar on top like github, thanks to [ngx-loading-bar](https://github.com/aitboudad/ngx-loading-bar)
+
+- Self-XSS warning for use of console on prod build. Inspect & Check console [here](https://sardapv.github.io/angular-material-starter-template/)
+
 - Icons and Typography (CDN links - index.html) 🤓
 
   - Angular Material Icons added
