@@ -23,7 +23,7 @@ If you do like this project, do leave a 🌟 ! 😊
 make sure you have node and npm installed on your system before running below commands
 
 - Clone the repo
-- Open project in your faviourite editor, let's say VSCode. Search and replace`project-name` with your*actual-project-name* across all the files
+- Open project in your faviourite editor, let's say VSCode. Search and replace`ng-new-app` with your*actual-ng-new-app* across all the files
 - If API calls supported, configure`baseurl` in`environment*.ts` files (don't end with /)
 - Run`npm install`
 - Run`ng serve`
@@ -117,7 +117,7 @@ make sure you have node and npm installed on your system before running below co
 
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
 
-# Custom Commands 💃
+# There is a command for everything you need! 💃
 
 | command                   | What it does?                                                        | Thanks to Plugin                                                                       |
 | ------------------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |

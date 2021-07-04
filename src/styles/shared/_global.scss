@@ -8,10 +8,7 @@
 }
 
 body {
-  @apply font-primary;
-  @apply text-sm;
-  @apply not-italic;
-  @apply font-light;
+  @apply font-primary text-sm not-italic font-light;
   line-height: 1.3;
 
   /* scrollbar theme overridden with below theme */
@@ -47,7 +44,5 @@ body {
 }
 
 .ellipsis {
-  @apply overflow-hidden;
-  @apply whitespace-nowrap;
-  @apply overflow-ellipsis;
+  @apply overflow-hidden whitespace-nowrap overflow-ellipsis;
 }

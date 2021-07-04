@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "project-name": {
+    "ng-new-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -83,10 +83,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "project-name:build:production"
+              "browserTarget": "ng-new-app:build:production"
             },
             "development": {
-              "browserTarget": "project-name:build:development"
+              "browserTarget": "ng-new-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,7 +94,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "project-name:build"
+            "browserTarget": "ng-new-app:build"
           }
         },
         "test": {
@@ -125,44 +125,44 @@
         "cypress-run": {
           "builder": "@briebug/cypress-schematic:cypress",
           "options": {
-            "devServerTarget": "project-name:serve"
+            "devServerTarget": "ng-new-app:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "project-name:serve:production"
+              "devServerTarget": "ng-new-app:serve:production"
             }
           }
         },
         "cypress-open": {
           "builder": "@briebug/cypress-schematic:cypress",
           "options": {
-            "devServerTarget": "project-name:serve",
+            "devServerTarget": "ng-new-app:serve",
             "watch": true,
             "headless": false
           },
           "configurations": {
             "production": {
-              "devServerTarget": "project-name:serve:production"
+              "devServerTarget": "ng-new-app:serve:production"
             }
           }
         },
         "e2e": {
           "builder": "@briebug/cypress-schematic:cypress",
           "options": {
-            "devServerTarget": "project-name:serve",
+            "devServerTarget": "ng-new-app:serve",
             "watch": true,
             "headless": false
           },
           "configurations": {
             "production": {
-              "devServerTarget": "project-name:serve:production"
+              "devServerTarget": "ng-new-app:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "project-name",
+  "defaultProject": "ng-new-app",
   "cli": {
     "defaultCollection": "@angular-eslint/schematics"
   }
