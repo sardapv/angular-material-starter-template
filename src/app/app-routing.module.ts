@@ -4,19 +4,16 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    loadChildren: () =>
-      import('./features/after-login/after-login.module').then((m) => m.AfterLoginModule),
+    loadChildren: () => import('./features/after-login/after-login.module').then((m) => m.AfterLoginModule),
     // change to before if session resume is not supported in your app
   },
   {
     path: 'after-login',
-    loadChildren: () =>
-      import('./features/after-login/after-login.module').then((m) => m.AfterLoginModule),
+    loadChildren: () => import('./features/after-login/after-login.module').then((m) => m.AfterLoginModule),
   },
   {
     path: 'before-login',
-    loadChildren: () =>
-      import('./features/before-login/before-login.module').then((m) => m.BeforeLoginModule),
+    loadChildren: () => import('./features/before-login/before-login.module').then((m) => m.BeforeLoginModule),
   },
   {
     path: '**',
