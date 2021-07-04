@@ -8,13 +8,7 @@ import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [ScamComponent],
-  imports: [
-    CommonModule,
-    MatDatepickerModule,
-    MatFormFieldModule,
-    MatNativeDateModule,
-    MatInputModule,
-  ],
+  imports: [CommonModule, MatDatepickerModule, MatFormFieldModule, MatNativeDateModule, MatInputModule],
   exports: [ScamComponent],
 })
 export class SCAMDemoModule {}
