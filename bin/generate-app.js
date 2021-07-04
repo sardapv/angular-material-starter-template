@@ -112,7 +112,7 @@ async function main() {
       `    2. search and replace 'ng-new-app' in all files with your app-name using editor ⚠️`
     );
     console.log(
-      `    3. Edit package.json and change startig details like author, description, git url, etc.`
+      `    3. Edit package.json and change starting details like author, description, git url, etc.`
     );
     console.log(
       `    4. If API calls supported, configurebaseurl inenvironment*.ts files (don't end with /)`
