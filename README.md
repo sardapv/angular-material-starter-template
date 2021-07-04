@@ -1,9 +1,7 @@
 # angular-material-starter-template 🍄
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sardapv/angular-material-starter-template/Lint-Tests-CypressTests-Build-Purgecss-Deploy?label=Lint-JestTests-CypressTests-Build-Purgecss-Deploy) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/angular-material-starter-template)
@@ -137,9 +135,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://pranavsarda.hashnode.dev/about"><img src="https://avatars.githubusercontent.com/u/14892874?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Sarda</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sardapv" title="Code">💻</a> <a href="#blog-sardapv" title="Blogposts">📝</a> <a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sardapv" title="Documentation">📖</a> <a href="#example-sardapv" title="Examples">💡</a> <a href="#design-sardapv" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/sjetha"><img src="https://avatars.githubusercontent.com/u/1066864?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shafiq Jetha</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sjetha" title="Tests">⚠️</a> <a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sjetha" title="Code">💻</a></td>
-
+    <td align="center"><a href="http://pranavsarda.hashnode.dev/about"><img src="https://avatars.githubusercontent.com/u/14892874?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Sarda</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sardapv" title="Code">💻</a> <a href="#blog-sardapv" title="Blogposts">📝</a> <a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sardapv" title="Documentation">📖</a> <a href="#example-sardapv" title="Examples">💡</a> <a href="#design-sardapv" title="Design">🎨</a></td>
+    <td align="center"><a href="http://deekshithrajbasa.github.io"><img src="https://avatars.githubusercontent.com/u/37568816?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Deekshith Raj Basa</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=DeekshithRajBasa" title="Code">💻</a> <a href="#example-DeekshithRajBasa" title="Examples">💡</a></td>
   </tr>
 </table>
 
