@@ -22,10 +22,9 @@ If you do like this project, do leave a 🌟 ! 😊
 
 make sure you have node and npm installed on your system before running below commands
 
-- Clone the repo
-- Open project in your faviourite editor, let's say VSCode. Search and replace`ng-new-app` with your*actual-ng-new-app* across all the files
-- If API calls supported, configure`baseurl` in`environment*.ts` files (don't end with /)
-- Run`npm install`
+- Run `npx ng-new-app your-app-name` \
+(if you don't have npx, Run -  `sudo npm i ng-new-app -g` then `ng-new-app your-app-name`)
+- Read instructions carefully after its successful, refer readme if any doubt.
 - Run`ng serve`
 
 # What does it offer?
