@@ -27,6 +27,16 @@
         "example",
         "design"
       ]
+    },
+    {
+      "login": "DeekshithRajBasa",
+      "name": "Deekshith Raj Basa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37568816?v=4",
+      "profile": "http://deekshithrajbasa.github.io",
+      "contributions": [
+        "code",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
