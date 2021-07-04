@@ -30,7 +30,6 @@
   "bin": {
     "ng-new-app": "./bin/generate-app.js"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~12.0.0",
     "@angular/cdk": "~12.0.0",
