@@ -98,8 +98,13 @@ make sure you have node and npm installed on your system before running below co
   - Material theme starter pack included, just change colors,font inside`_mat_*.scss` files
 
 - Superpowerd with `Jest` for unit testing and `Cypress` for e2e testing (instead of karma and protractor). Special Thanks to contribution by [@sjetha](https://github.com/sjetha) for this and eslint integration.
-- Global route-loader progressbar on top like github, thanks to [ngx-loading-bar](https://github.com/aitboudad/ngx-loading-bar)
+
 - ESLint integrated as recommended by Angular
+
+- Global route-loader progressbar on top like github, thanks to [ngx-loading-bar](https://github.com/aitboudad/ngx-loading-bar)
+
+- Self-XSS warning for use of console on prod build. Inspect & Check console [here](https://sardapv.github.io/angular-material-starter-template/)
+
 - Icons and Typography (CDN links - index.html) 🤓
 
   - Angular Material Icons added

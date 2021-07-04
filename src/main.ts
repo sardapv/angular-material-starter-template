@@ -17,13 +17,13 @@ platformBrowserDynamic()
   .catch((err) => console.error(err));
 
 function selfXSSWarning() {
-  setTimeout(() => console.log('%STOP!', 'font-weight:bold; font: 6em Arial; color: red; '));
-  setTimeout(() =>
+  setTimeout(() => {
+    console.log('%STOP!', 'font-weight:bold; font: 6em Arial; color: red; ');
     console.log(
       `\n%c This is a browser feature intended for developers. Using this console may allow\
-       attackers to impersonate you and steal your information using an attack called Self-XSS.\
-       Do not enter or paste code that you do not understand.`,
+     attackers to impersonate you and steal your information using an attack called Self-XSS.\
+     Do not enter or paste code that you do not understand.`,
       'font-weight:bold; font: 3em Arial; color: red;'
-    )
-  );
+    );
+  });
 }
