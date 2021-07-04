@@ -22,10 +22,10 @@ jobs:
       - name: Install npm dependencies
         run: |
           npm install
-      - name: Lint
+      - name: Prettier
         run: |
           npm run prettier
-      -- name: Lint
+      -- name: Prettier Verify
         run: |
           npm run prettier:verify
       - name: Lint
