@@ -6,7 +6,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sardapv/angular-material-starter-template/Lint-Tests-CypressTests-Build-Purgecss-Deploy?label=Lint-JestTests-CypressTests-Build-Purgecss-Deploy) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/angular-material-starter-template)
+[![Lint-Prettier-Prettier:verify-Tests-CypressTests-Build-Purgecss-Deploy](https://github.com/sardapv/angular-material-starter-template/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/sardapv/angular-material-starter-template/actions/workflows/build-deploy.yml) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/angular-material-starter-template)
 
 ![Angular](https://img.shields.io/badge/Angular-12.0.0-red) ![materialUI](https://img.shields.io/badge/angular--material-12.0.0-blue) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-2.1.2-%2306B6D4) ![Cypress](https://img.shields.io/badge/cypress-7.5.0-%23012) ![Jest](https://img.shields.io/badge/jest-27.0.4-%2316C213) ![Angular_lint](https://img.shields.io/badge/angular--eslint-12.0.1-important) ![PurgeCSS](https://img.shields.io/badge/postbuild%20purgecss-4.0.3-blueviolet) ![SourcemapExplorer](https://img.shields.io/badge/source--map--explorer-2.5.2-ff69b4) ![WebpackBundleAnalyzer](https://img.shields.io/badge/webpack--bundle--analyzer-4.4.1-yellow)
 
