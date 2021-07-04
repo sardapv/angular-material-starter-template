@@ -7,8 +7,6 @@ import { BroadcasterService } from '@core/services/broadcaster.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'project-name';
-
   constructor(private _broadcatser: BroadcasterService) {
     // app component broadasting
     this._broadcatser.broadcast('mykey', 'myvalue');
