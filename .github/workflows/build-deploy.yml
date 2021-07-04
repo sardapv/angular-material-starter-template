@@ -25,7 +25,7 @@ jobs:
       - name: Prettier
         run: |
           npm run prettier
-      -- name: Prettier Verify
+      - name: Prettier Verify
         run: |
           npm run prettier:verify
       - name: Lint
