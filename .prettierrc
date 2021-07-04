@@ -4,6 +4,5 @@
     "useTabs": false,
     "tabWidth": 2,
     "semi": true,
-    "bracketSpacing": true,
-    "editor.formatOnSave": true
+    "bracketSpacing": true
 }
