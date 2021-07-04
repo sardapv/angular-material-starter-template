@@ -1,1 +1,0 @@
-(self.webpackChunkng_new_app=self.webpackChunkng_new_app||[]).push([[592],{4466:(e,n,p)=>{"use strict";p.d(n,{m:()=>a});var s=p(2057),t=p(793);let a=(()=>{class e{}return e.\u0275fac=function(n){return new(n||e)},e.\u0275mod=t.oAB({type:e}),e.\u0275inj=t.cJS({imports:[[s.ez]]}),e})()}}]);
