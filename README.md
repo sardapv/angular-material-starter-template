@@ -1,7 +1,9 @@
 # angular-material-starter-template 🍄
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/sardapv/angular-material-starter-template/Lint-Tests-CypressTests-Build-Purgecss-Deploy?label=Lint-JestTests-CypressTests-Build-Purgecss-Deploy) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/angular-material-starter-template)
@@ -35,6 +37,7 @@ make sure you have node and npm installed on your system before running below co
   - **CoreModule** - only to be imported in Appmodule
 
     - Auth Guard with basic check
+
     - Basic Auth service (Refer model in model folder & change accordingly)
 
       - login
@@ -99,7 +102,9 @@ make sure you have node and npm installed on your system before running below co
 
 - ESLint integrated as recommended by Angular
 
-- Global route-loader progressbar on top like github, thanks to [ngx-loading-bar](https://github.com/aitboudad/ngx-loading-bar)
+- Prettier configured (with resolved conflicts between ESLint) - no VS extension being used by team? run command to check if follows rules/ run prettier on all in one go! Thanks to [@deekshithrajbasa](https://github.com/deekshithrajbasa) for this ✌🏻
+
+- Global route-loader progressbar on top like github, using [ngx-loading-bar](https://github.com/aitboudad/ngx-loading-bar) package
 
 - Self-XSS warning for use of console on prod build. Inspect & Check console [here](https://sardapv.github.io/angular-material-starter-template/)
 
@@ -109,14 +114,17 @@ make sure you have node and npm installed on your system before running below co
   - Default Poppins, OpenSans font integrated
 
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
+
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
 
 # Custom Commands 💃
 
 | command                   | What it does?                                                        | Thanks to Plugin                                                                       |
 | ------------------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
-| `npm run start`           | Starts the server in dev mode 🤷🏻‍♂️                                     |                                                                                        |
+| `npm start`               | Starts the server in dev mode 🤷🏻‍♂️                                     |                                                                                        |
 | `npm run lint`            | Runs ESLint on project                                               |                                                                                        |
+| `npm run prettier`        | Runs prettier on entire src folder                                   |                                                                                        |
+| `npm run prettier:verify` | Runs prettier-check and throws error if fails                        |                                                                                        |
 | `npm run final-build`     | Takes prod build and runs PurgeCSS script                            |                                                                                        |
 | `npm run prod-test`       | Takes a final-build deployes on local server and give you url to run | [serve](https://www.npmjs.com/package/serve)                                           |
 | `npm run purgecss`        | Run PurgeCSS job to reduced style.css size into few kbs              | [purgecss](https://www.npmjs.com/package/purgecss)                                     |
@@ -131,8 +139,11 @@ make sure you have node and npm installed on your system before running below co
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tr>
     <td align="center"><a href="http://pranavsarda.hashnode.dev/about"><img src="https://avatars.githubusercontent.com/u/14892874?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Sarda</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sardapv" title="Code">💻</a> <a href="#blog-sardapv" title="Blogposts">📝</a> <a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sardapv" title="Documentation">📖</a> <a href="#example-sardapv" title="Examples">💡</a> <a href="#design-sardapv" title="Design">🎨</a></td>
@@ -142,6 +153,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->

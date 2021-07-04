@@ -13,7 +13,7 @@ describe('BeforeLoginComponent', () => {
       TestBed.configureTestingModule({
         declarations: [BeforeLoginComponent],
         imports: [SharedModule],
-        schemas: [CUSTOM_ELEMENTS_SCHEMA]
+        schemas: [CUSTOM_ELEMENTS_SCHEMA],
       }).compileComponents();
     })
   );
