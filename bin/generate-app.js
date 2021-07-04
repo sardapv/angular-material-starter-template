@@ -30,7 +30,7 @@ const features = [
   'source-map-explorer and webpack-bundle-analyzer for prod build inspection of modules, you choose',
   'Local prod-build deploy and test on server',
   'Github Actions Pipeline configured i.e lint -> jest & cypress tests -> build -> purgecss -> deploy',
-  'Bunch of custom commands, refer readme (https://github.com/sardapv/angular-material-starter-template#readme)',
+  'Prod build console warning, Bunch of custom commands, refer readme (https://github.com/sardapv/angular-material-starter-template#readme)',
 ];
 
 try {
