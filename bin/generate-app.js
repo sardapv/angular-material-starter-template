@@ -7,7 +7,7 @@ const fs = require('fs');
 if (process.argv.length < 3) {
   console.log('You have to provide a name to your new angular app 🤨');
   console.log('For example :');
-  console.log('    npx new-angular-app my-app');
+  console.log('    npx ng-new-app my-app');
   process.exit(1);
 }
 
@@ -55,7 +55,7 @@ async function main() {
     );
     console.log(
       '\x1b[33m',
-      'new-angular-app 🚀: Downloading & Setting up the project structure...',
+      'ng-new-app 🚀: Downloading & Setting up the project structure...',
       '\x1b[0m'
     );
     console.log(
@@ -68,14 +68,14 @@ async function main() {
     console.log('step 1/4 ✅');
     process.chdir(projectPath);
     console.log('\x1b[32m', '------------------------------------------------------', '\x1b[0m');
-    console.log('\x1b[33m', 'new-angular-app 🚀: Hang on, installing dependencies...', '\x1b[33m');
+    console.log('\x1b[33m', 'ng-new-app 🚀: Hang on, installing dependencies...', '\x1b[33m');
     console.log('\x1b[32m', '------------------------------------------------------', '\x1b[0m');
 
     execSync('npm install', { stdio: 'inherit' });
     console.log('step 2/4 ✅');
 
     console.log('\x1b[32m', '--------------------------------------------', '\x1b[0m');
-    console.log('\x1b[33m', 'new-angular-app 🚀: Cleaning useless stuff...', '\x1b[33m');
+    console.log('\x1b[33m', 'ng-new-app 🚀: Cleaning useless stuff...', '\x1b[33m');
     console.log('\x1b[32m', '--------------------------------------------', '\x1b[0m');
 
     execSync('npx rimraf ./.git');
@@ -90,7 +90,7 @@ async function main() {
     );
     console.log(
       '\x1b[33m',
-      'new-angular-app 🚀: Yay! Boilerplate setup is successful and is ready with all below features! 🎉 ',
+      'ng-new-app 🚀: Yay! Boilerplate setup is successful and is ready with all below features! 🎉 ',
       '\x1b[33m'
     );
     console.log(

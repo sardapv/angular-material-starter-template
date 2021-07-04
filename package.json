@@ -20,7 +20,7 @@
     "prettier:verify": "prettier --config ./.prettierrc --check \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\""
   },
   "bin": {
-    "new-angular-app": "./bin/generate-app.js"
+    "ng-new-app": "./bin/generate-app.js"
   },
   "private": true,
   "dependencies": {
