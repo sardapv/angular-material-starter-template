@@ -1,6 +1,14 @@
 {
-  "name": "project-name",
+  "name": "ng-new-app",
   "version": "1.0.0",
+  "description": "Angular 12 boilerplate that comes with Material-UI, Tailwind, Purgecss, Jest & Cypress Support, Optimal project structure, Interceptor with already some code, sourcemap analyzer tools, all pre-configured and much more...",
+  "homepage": "https://github.com/sardapv/angular-material-starter-template#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sardapv/angular-material-starter-template.git"
+  },
+  "author": "Pranav Sarda <sardapranav1@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -14,8 +22,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "postinstall": "ngcc",
-    "e2e": "ng run project-name:cypress-open",
-    "e2e:ci": "ng run project-name:cypress-run",
+    "e2e": "ng run ng-new-app:cypress-open",
+    "e2e:ci": "ng run ng-new-app:cypress-run",
     "prettier": "prettier --config ./.prettierrc --write \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\"",
     "prettier:verify": "prettier --config ./.prettierrc --check \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\""
   },

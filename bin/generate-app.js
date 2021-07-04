@@ -109,12 +109,15 @@ async function main() {
     console.log('\x1b[31m', 'Read this before you proceed', '\x1b[0m');
     console.log('\x1b[34m', `   1. cd ${projectName}`);
     console.log(
-      `    2. search and replace 'project-name' in all files with your app-name using editor ⚠️`
+      `    2. search and replace 'ng-new-app' in all files with your app-name using editor ⚠️`
     );
     console.log(
-      `    3. If API calls supported, configurebaseurl inenvironment*.ts files (don't end with /)`
+      `    3. Edit package.json and change startig details like author, description, git url, etc.`
     );
-    console.log('    4. npm start', '\x1b[0m');
+    console.log(
+      `    4. If API calls supported, configurebaseurl inenvironment*.ts files (don't end with /)`
+    );
+    console.log('    5. npm start', '\x1b[0m');
     console.log();
     console.log('step 4/4 ⏳');
     console.log();
