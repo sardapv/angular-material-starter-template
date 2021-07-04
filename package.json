@@ -62,7 +62,6 @@
     "dayjs": "^1.10.5",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^3.4.0",
     "jasmine-core": "~3.7.0",
     "jest": "27.0.4",
     "prettier": "2.3.2",
