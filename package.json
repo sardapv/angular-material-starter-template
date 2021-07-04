@@ -21,7 +21,6 @@
     "final-build": "npm run build && npm run purgecss",
     "test": "ng test",
     "lint": "ng lint",
-    "postinstall": "ngcc",
     "e2e": "ng run ng-new-app:cypress-open",
     "e2e:ci": "ng run ng-new-app:cypress-run",
     "prettier": "prettier --config ./.prettierrc --write \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\"",
