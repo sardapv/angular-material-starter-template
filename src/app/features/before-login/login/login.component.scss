@@ -1,0 +1,18 @@
+.container {
+  &::after,
+  &::before {
+    content: '';
+    @apply absolute;
+    height: 400px;
+    width: 400px;
+    @apply border border-primary-500 rounded-full;
+  }
+
+  &::after {
+    @apply -bottom-48 -left-32;
+  }
+
+  &::before {
+    @apply -bottom-52 -left-12;
+  }
+}
