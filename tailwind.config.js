@@ -29,7 +29,7 @@ module.exports = {
       xs: '12px',
       sm: '14px',
       base: '15px',
-      lg: '16px',
+      md: '25px',
       xl: '35px',
       '2xl': '45px',
       '3xl': '75px',
@@ -63,6 +63,8 @@ module.exports = {
         500: '#fff',
       },
       grey: {
+        200: '#C2C2C2',
+        300: '#949494',
         500: '#3c3d44',
       },
       yellow: {

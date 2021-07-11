@@ -27,5 +27,45 @@
       </button>
     </div>
   </div>
-  <div class="w-2/5 h-full"></div>
+  <div class="h-full w-2/5 flex flex-col justify-center items-start px-32">
+    <h2 class="font-semibold text-md">Hello Again 👋</h2>
+    <p class="font-normal text-sm mt-1">Welcome back!</p>
+    <form class="login-form my-10 w-full">
+      <mat-form-field appearance="outline" class="w-full">
+        <mat-label>Email or Phone No</mat-label>
+        <input matInput placeholder="for e.g. johndoe@gmail.com" type="email" autocomplete="off" />
+        <mat-icon matPrefix style="color: #c2c2c2" class="mr-1" fontSet="material-icons-outlined">email</mat-icon>
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="w-full">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="Password" type="password" autocomplete="off" />
+        <mat-icon matPrefix style="color: #c2c2c2" class="primary" class="mr-1" fontSet="material-icons-outlined"
+          >lock</mat-icon
+        >
+      </mat-form-field>
+
+      <button
+        color="primary"
+        matRipple
+        class="h-12 w-full px-8 font-light rounded-full bg-primary-500 text-light-500 shadow-none my-3"
+        type="submit"
+      >
+        Login
+      </button>
+
+      <a
+        class="
+          text-grey-300 text-xs
+          self-center
+          block
+          text-center
+          hover:text-primary-500
+          cursor-pointer
+          transition-all
+          duration-200
+        "
+        >Forgot Password?</a
+      >
+    </form>
+  </div>
 </div>
