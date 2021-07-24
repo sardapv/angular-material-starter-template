@@ -1,42 +1,50 @@
-# angular-material-starter-template 🍄
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+# angular-material-starter-template (ng-new-app 🍄)
 
 [![Lint-Prettier-Prettier:verify-Tests-CypressTests-Build-Purgecss-Deploy](https://github.com/sardapv/angular-material-starter-template/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/sardapv/angular-material-starter-template/actions/workflows/build-deploy.yml) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/angular-material-starter-template)
-
-![Angular](https://img.shields.io/badge/Angular-12.0.0-red) ![materialUI](https://img.shields.io/badge/angular--material-12.0.0-blue) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-2.1.2-%2306B6D4) ![Cypress](https://img.shields.io/badge/cypress-7.5.0-%23012) ![Jest](https://img.shields.io/badge/jest-27.0.4-%2316C213) ![Angular_lint](https://img.shields.io/badge/angular--eslint-12.0.1-important) ![PurgeCSS](https://img.shields.io/badge/postbuild%20purgecss-4.0.3-blueviolet) ![SourcemapExplorer](https://img.shields.io/badge/source--map--explorer-2.5.2-ff69b4) ![WebpackBundleAnalyzer](https://img.shields.io/badge/webpack--bundle--analyzer-4.4.1-yellow)
 
 ![logo](logoForThisRepo.png?raw=true)
 
 > This boilerplate comes with bunch of preconfigured stuffs and best practises to help you kickstart your project easier & quicker...
 
-If you do like this project, do leave a 🌟 ! 😊
+If you like this project, do leave a 🌟 ! 😊
 
 [Sample Demo 🚀](https://sardapv.github.io/angular-material-starter-template/) (only shows that Tailwind, Material components are integrated)
 
 # How to get started?
 
-make sure you have node and npm installed on your system before running below commands
+Make sure you have node.js latest stable & @angular-cli installed on your system before running below commands
 
-- Run `npx ng-new-app your-app-name` \
-(if you don't have npx, Run -  `sudo npm i ng-new-app -g` then `ng-new-app your-app-name`)
+- Run
+
+```bash
+npx ng-new-app your-app-name
+```
+
+if you don't have npx, Run -
+
+```bash
+sudo npm i ng-new-app -g
+```
+
+and
+
+```bash
+ng-new-app your-app-name
+```
+
 - Read instructions carefully after its successful, refer readme if any doubt.
-- Run`ng serve`
+- change package.json for project, version & author details
+- Run`npm start` and start coding 😉
 
-# What does it offer?
+# What's inside the boilerplate?
 
-> Well, you might have noticed badges on top 😉, but keep on reading for detailed summary 🍷
+> Keep reading for detailed summary 🍷
 
 - Project Structure inspired form [Rik De Vos&#39;s blog](https://medium.com/dev-jam/5-tips-best-practices-to-organize-your-angular-project-e900db08702e) - tl:dr 3 main modules
 
   - **CoreModule** - only to be imported in Appmodule
 
     - Auth Guard with basic check
-
     - Basic Auth service (Refer model in model folder & change accordingly)
 
       - login
@@ -88,35 +96,30 @@ make sure you have node and npm installed on your system before running below co
   - success and error handler
   - refresh token handler (inspired from [Rich Franzmeier&#39;s blog](https://www.intertech.com/author/rich-franzmeier/ 'Posts by Rich Franzmeier'))
 
-- Tailwind and post-build PurgeCSS Configuration 😍
+- Tailwind and post-build PurgeCSS Configuration
 
   - Tailwind configuration with font, theme and other properties (refer`tailwind.config.js`)
   - Note: Tailwind's own purgecss only takes care of tailwind classes, for overall application, post-build purgecss is best (I will write an article explaining why)
 
-- Angular Material Component & CDK integrated 😎
+- Angular Material Component & CDK integrated
 
   - Material theme starter pack included, just change colors,font inside`_mat_*.scss` files
 
 - Superpowerd with `Jest` for unit testing and `Cypress` for e2e testing (instead of karma and protractor). Special Thanks to contribution by [@sjetha](https://github.com/sjetha) for this and eslint integration.
-
 - ESLint integrated as recommended by Angular
-
-- Prettier configured (with resolved conflicts between ESLint) - no VS extension being used by team? run command to check if follows rules/ run prettier on all in one go! Thanks to [@deekshithrajbasa](https://github.com/deekshithrajbasa) for this ✌🏻
-
+- Prettier configured (with resolved conflicts between ESLint) - no VS extension being used by team? run command to check if follows rules/ run prettier on all in one go! Thanks to [@deekshithrajbasa](https://github.com/deekshithrajbasa) for this.
 - Global route-loader progressbar on top like github, using [ngx-loading-bar](https://github.com/aitboudad/ngx-loading-bar) package
-
 - Self-XSS warning for use of console on prod build. Inspect & Check console [here](https://sardapv.github.io/angular-material-starter-template/)
-
-- Icons and Typography (CDN links - index.html) 🤓
+- Icons and Typography (CDN links - index.html)
 
   - Angular Material Icons added
   - Default Poppins, OpenSans font integrated
 
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
-
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
+- [new✨] Pre-commit husky hook, run whatever command you want before git commit. By default prettifying changed/staged files and running lint is enabled, you can comment out run tests too. Refer .husky/pre-commit file for this operations. This helps you maintian same quality across team workspaces.
 
-# There is a command for everything you need! 💃
+# There is a command for everything you need! 🧑🏻‍💻
 
 | command                   | What it does?                                                        | Thanks to Plugin                                                                       |
 | ------------------------- | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------- |
@@ -124,6 +127,7 @@ make sure you have node and npm installed on your system before running below co
 | `npm run lint`            | Runs ESLint on project                                               |                                                                                        |
 | `npm run prettier`        | Runs prettier on entire src folder                                   |                                                                                        |
 | `npm run prettier:verify` | Runs prettier-check and throws error if fails                        |                                                                                        |
+| `npm run prettier:staged` | Runs prettier on only staged (changed) files                         |                                                                                        |
 | `npm run final-build`     | Takes prod build and runs PurgeCSS script                            |                                                                                        |
 | `npm run prod-test`       | Takes a final-build deployes on local server and give you url to run | [serve](https://www.npmjs.com/package/serve)                                           |
 | `npm run purgecss`        | Run PurgeCSS job to reduced style.css size into few kbs              | [purgecss](https://www.npmjs.com/package/purgecss)                                     |
@@ -132,6 +136,11 @@ make sure you have node and npm installed on your system before running below co
 | `npm run test`            | Runs all the jests test cases                                        | [@briebug/jest-schematic](https://www.npmjs.com/package/@briebug/jest-schematic)       |
 | `npm run e2e`             | Opens up Cypress View to run your e2e tests in browser               | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
 | `npm run e2e:ci`          | Runs cypress tests in console (used for CI/CD)                       | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
+
+### Plan
+
+Under `auth_-login-page branch`, there is a sample login page designed.
+Looking for contributors to build signup, forgot password pages and integration with Firebase with a minimal configuration to change for any new project. PRs welcome✌🏻. Look for project/issues tab.
 
 ## Contributors ✨
 

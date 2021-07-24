@@ -6,4 +6,5 @@
 # if failed no commits will be done
 
 npm run prettier:staged
-npm run test
+npm run lint
+#npm run test
