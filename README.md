@@ -139,7 +139,7 @@ ng-new-app your-app-name
 
 ### Plan
 
-Under `auth_-login-page branch`, there is a sample login page designed.
+Under `auth-login-page branch`, there is a sample login page designed.
 Looking for contributors to build signup, forgot password pages and integration with Firebase with a minimal configuration to change for any new project. PRs welcome✌🏻. Look for project/issues tab.
 
 ## Contributors ✨
