@@ -1,17 +1,25 @@
 {
   "name": "ng-new-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Angular 12 boilerplate that comes with Material-UI, Tailwind, Purgecss, Jest & Cypress Support, Optimal project structure, Interceptor with already some code, sourcemap analyzer tools, all pre-configured and much more...",
   "homepage": "https://github.com/sardapv/angular-material-starter-template#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sardapv/angular-material-starter-template.git"
   },
-  "keywords": ["angular", "boilerplate", "starter-kit", "material-template", "tailwind-template" ],
+  "keywords": [
+    "angular",
+    "boilerplate",
+    "starter-kit",
+    "material-template",
+    "tailwind-template",
+    "husky"
+  ],
   "author": "Pranav Sarda <sardapranav1@gmail.com>",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "prepare": "husky install",
     "start": "ng serve",
     "build": "ng build --base-href ./ ",
     "watch": "ng build --watch --configuration development",
@@ -25,7 +33,8 @@
     "e2e": "ng run ng-new-app:cypress-open",
     "e2e:ci": "ng run ng-new-app:cypress-run",
     "prettier": "prettier --config ./.prettierrc --write \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\"",
-    "prettier:verify": "prettier --config ./.prettierrc --check \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\""
+    "prettier:verify": "prettier --config ./.prettierrc --check \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\"",
+    "prettier:staged": "pretty-quick --staged"
   },
   "bin": {
     "ng-new-app": "./bin/generate-app.js"
@@ -72,8 +81,10 @@
     "dayjs": "^1.10.5",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.1",
     "jest": "27.0.4",
     "prettier": "2.3.2",
+    "pretty-quick": "^3.1.1",
     "purgecss": "^4.0.3",
     "rimraf": "^3.0.2",
     "serve": "^12.0.0",
