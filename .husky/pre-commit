@@ -1,0 +1,10 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Here you can add all commands you want to run sequentially
+# for e.g run pretiier on changed files and run lint or run tests
+# if failed no commits will be done
+
+npm run prettier:staged
+npm run lint
+#npm run test
