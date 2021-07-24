@@ -1,9 +1,8 @@
 name: Lint-Prettier-Prettier:verify-Tests-CypressTests-Build-Purgecss-Deploy
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
