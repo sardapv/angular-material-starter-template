@@ -136,6 +136,7 @@ ng-new-app your-app-name
 | `npm run test`            | Runs all the jests test cases                                        | [@briebug/jest-schematic](https://www.npmjs.com/package/@briebug/jest-schematic)       |
 | `npm run e2e`             | Opens up Cypress View to run your e2e tests in browser               | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
 | `npm run e2e:ci`          | Runs cypress tests in console (used for CI/CD)                       | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
+| `npm run lighthouse`      | Runs lighthouse checks on local environment                          | [lighthouse](https://developers.google.com/web/tools/lighthouse)                       |
 
 ### Plan
 
