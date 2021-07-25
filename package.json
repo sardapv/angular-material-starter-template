@@ -29,6 +29,7 @@
     "purgecss": "node run-purgecss.js",
     "final-build": "npm run build && npm run purgecss",
     "test": "ng test",
+    "test:coverage": "ng test --coverage",
     "lint": "ng lint",
     "e2e": "ng run ng-new-app:cypress-open",
     "e2e:ci": "ng run ng-new-app:cypress-run",
