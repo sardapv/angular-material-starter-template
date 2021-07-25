@@ -118,6 +118,7 @@ ng-new-app your-app-name
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
 - [new✨] Pre-commit husky hook, run whatever command you want before git commit. By default prettifying changed/staged files and running lint is enabled, you can comment out run tests too. Refer .husky/pre-commit file for this operations. This helps you maintian same quality across team workspaces.
+- [new✨] Test-coverage report and its workflow (github action). Check index.html in generated coverage folder. Thanks to [@sapatgit](https://github.com/@sapatgit) for adding this.
 
 # There is a command for everything you need! 🧑🏻‍💻
 
@@ -134,6 +135,7 @@ ng-new-app your-app-name
 | `npm run source`          | Takes a final-build and opens up source-map-explorer view            | [source-map-explorer](https://www.npmjs.com/package/source-map-explorer)               |
 | `npm run webpack-analyze` | Takes a final-build and opens up webpack-bundle-analyzer view        | [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)       |
 | `npm run test`            | Runs all the jests test cases                                        | [@briebug/jest-schematic](https://www.npmjs.com/package/@briebug/jest-schematic)       |
+| `npm run test:coverage`   | Runs all the jests test cases and generate coverage report           | [@briebug/jest-schematic](https://www.npmjs.com/package/@briebug/jest-schematic)       |
 | `npm run e2e`             | Opens up Cypress View to run your e2e tests in browser               | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
 | `npm run e2e:ci`          | Runs cypress tests in console (used for CI/CD)                       | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
 | `npm run lighthouse`      | Opens lighthouse report                                              | [lighthouse](https://www.npmjs.com/package/lighthouse)                                 |
@@ -148,21 +150,18 @@ Looking for contributors to build signup, forgot password pages and integration 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-
 <!-- prettier-ignore-start -->
-
 <!-- markdownlint-disable -->
-
 <table>
   <tr>
     <td align="center"><a href="http://pranavsarda.hashnode.dev/about"><img src="https://avatars.githubusercontent.com/u/14892874?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pranav Sarda</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sardapv" title="Code">💻</a> <a href="#blog-sardapv" title="Blogposts">📝</a> <a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sardapv" title="Documentation">📖</a> <a href="#example-sardapv" title="Examples">💡</a> <a href="#design-sardapv" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/sjetha"><img src="https://avatars.githubusercontent.com/u/1066864?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shafiq Jetha</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sjetha" title="Tests">⚠️</a> <a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sjetha" title="Code">💻</a></td>
     <td align="center"><a href="http://deekshithrajbasa.github.io"><img src="https://avatars.githubusercontent.com/u/37568816?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Deekshith Raj Basa</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=DeekshithRajBasa" title="Code">💻</a> <a href="#example-DeekshithRajBasa" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/sapatgit"><img src="https://avatars.githubusercontent.com/u/21025626?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saptarshi Majumdar</b></sub></a><br /><a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sapatgit" title="Documentation">📖</a> <a href="https://github.com/sardapv/angular-material-starter-template/commits?author=sapatgit" title="Code">💻</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-restore -->
-
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
