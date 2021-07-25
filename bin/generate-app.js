@@ -30,6 +30,8 @@ const features = [
   'Husky hooks preventing git commits unless all rules passed',
   'source-map-explorer and webpack-bundle-analyzer for prod build inspection of modules, you choose',
   'Local prod-build deploy and test on server',
+  'Test coverage report',
+  'Lighthouse performance, SEO, Accessibility report',
   'Github Actions Pipeline configured i.e prettify -> prettify:verify -> lint -> jest & cypress tests -> build -> purgecss -> deploy',
   'Prod build console warning, Bunch of custom commands, refer table in readme (https://github.com/sardapv/angular-material-starter-template#readme)',
 ];
@@ -101,6 +103,7 @@ async function main() {
     console.log(`    3. Edit package.json and change starting details like author, description, git url, etc.`);
     console.log(`    4. If API calls supported, configure baseurl inenvironment*.ts files (don't end with /)`);
     console.log('    5. Run npm start', '\x1b[0m');
+    console.log('    6. Add your new README.md', '\x1b[0m');
     console.log();
     console.log('step 4/4 ⏳');
     console.log();
