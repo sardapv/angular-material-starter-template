@@ -37,6 +37,16 @@
         "code",
         "example"
       ]
+    },
+    {
+      "login": "sapatgit",
+      "name": "Saptarshi Majumdar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21025626?v=4",
+      "profile": "https://github.com/sapatgit",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
