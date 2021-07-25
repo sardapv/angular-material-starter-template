@@ -37,8 +37,7 @@
     "e2e:ci": "ng run ng-new-app:cypress-run",
     "prettier": "prettier --config ./.prettierrc --write \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\"",
     "prettier:verify": "prettier --config ./.prettierrc --check \"src/{app,environments}/**/*{.ts,.html,.scss,.json}\"",
-    "prettier:staged": "pretty-quick --staged",
-    "lighthouse": "node lighthouse.js"
+    "prettier:staged": "pretty-quick --staged"
   },
   "bin": {
     "ng-new-app": "./bin/generate-app.js"
@@ -87,7 +86,6 @@
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.1",
     "jest": "27.0.4",
-    "lighthouse": "^8.1.0",
     "prettier": "2.3.2",
     "pretty-quick": "^3.1.1",
     "purgecss": "^4.0.3",

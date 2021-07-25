@@ -51,6 +51,3 @@ Thumbs.db
 # Cypress artefacts
 cypress/videos/**
 cypress/screenshots/**
-
-# Lighthouse Report
-lhreport.html
