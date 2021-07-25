@@ -118,7 +118,8 @@ ng-new-app your-app-name
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
 - [new✨] Pre-commit husky hook, run whatever command you want before git commit. By default prettifying changed/staged files and running lint is enabled, you can comment out run tests too. Refer .husky/pre-commit file for this operations. This helps you maintian same quality across team workspaces.
-- [new✨] Test-coverage report and its workflow (github action). Check index.html in generated coverage folder. Thanks to [@sapatgit](https://github.com/@sapatgit) for adding this.
+- [new✨] Code-coverage report and its workflow (github action). Open index.html in generated coverage folder. Thanks to [@sapatgit](https://github.com/@sapatgit) for adding this and lighthouse report.
+- [new✨] Lighthouse report inspired from [Daniel Kreider's blog](https://medium.com/geekculture/this-simple-stunt-lets-me-release-a-speedy-angular-application-741d5803a44a).
 
 # There is a command for everything you need! 🧑🏻‍💻
 
@@ -138,6 +139,7 @@ ng-new-app your-app-name
 | `npm run test:coverage`   | Runs all the jests test cases and generate coverage report           | [@briebug/jest-schematic](https://www.npmjs.com/package/@briebug/jest-schematic)       |
 | `npm run e2e`             | Opens up Cypress View to run your e2e tests in browser               | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
 | `npm run e2e:ci`          | Runs cypress tests in console (used for CI/CD)                       | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
+| `npm run lighthouse`      | Opens lighthouse report                                              | [lighthouse](https://www.npmjs.com/package/lighthouse)                                 |
 
 ### Plan
 
