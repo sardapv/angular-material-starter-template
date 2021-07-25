@@ -1,6 +1,6 @@
 {
   "name": "ng-new-app",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Angular 12 boilerplate that comes with Material-UI, Tailwind, Purgecss, Jest & Cypress Support, Optimal project structure, Interceptor with already some code, sourcemap analyzer tools, all pre-configured and much more...",
   "homepage": "https://github.com/sardapv/angular-material-starter-template#readme",
   "repository": {
@@ -13,7 +13,9 @@
     "starter-kit",
     "material-template",
     "tailwind-template",
-    "husky"
+    "husky",
+    "code-coverage",
+    "light-house"
   ],
   "author": "Pranav Sarda <sardapranav1@gmail.com>",
   "license": "MIT",
