@@ -118,6 +118,7 @@ ng-new-app your-app-name
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
 - [new✨] Pre-commit husky hook, run whatever command you want before git commit. By default prettifying changed/staged files and running lint is enabled, you can comment out run tests too. Refer .husky/pre-commit file for this operations. This helps you maintian same quality across team workspaces.
+- [new✨] Test-coverage report and its workflow (github action). Thanks to @sapatgit for adding this.
 
 # There is a command for everything you need! 🧑🏻‍💻
 
@@ -134,6 +135,7 @@ ng-new-app your-app-name
 | `npm run source`          | Takes a final-build and opens up source-map-explorer view            | [source-map-explorer](https://www.npmjs.com/package/source-map-explorer)               |
 | `npm run webpack-analyze` | Takes a final-build and opens up webpack-bundle-analyzer view        | [webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)       |
 | `npm run test`            | Runs all the jests test cases                                        | [@briebug/jest-schematic](https://www.npmjs.com/package/@briebug/jest-schematic)       |
+| `npm run test:coverage`   | Runs all the jests test cases and generate coverage report           | [@briebug/jest-schematic](https://www.npmjs.com/package/@briebug/jest-schematic)       |
 | `npm run e2e`             | Opens up Cypress View to run your e2e tests in browser               | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
 | `npm run e2e:ci`          | Runs cypress tests in console (used for CI/CD)                       | [@briebug/cypress-schematic](https://www.npmjs.com/package/@briebug/cypress-schematic) |
 

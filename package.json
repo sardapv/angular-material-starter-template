@@ -1,6 +1,6 @@
 {
   "name": "ng-new-app",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Angular 12 boilerplate that comes with Material-UI, Tailwind, Purgecss, Jest & Cypress Support, Optimal project structure, Interceptor with already some code, sourcemap analyzer tools, all pre-configured and much more...",
   "homepage": "https://github.com/sardapv/angular-material-starter-template#readme",
   "repository": {
@@ -29,6 +29,7 @@
     "purgecss": "node run-purgecss.js",
     "final-build": "npm run build && npm run purgecss",
     "test": "ng test",
+    "test:coverage": "ng test --coverage",
     "lint": "ng lint",
     "e2e": "ng run ng-new-app:cypress-open",
     "e2e:ci": "ng run ng-new-app:cypress-run",
