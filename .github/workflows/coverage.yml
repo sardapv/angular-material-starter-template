@@ -37,7 +37,7 @@ jobs:
         run: npm install
 
       - name: Run the tests
-        run: npm e2e:ci
+        run: npm run e2e:ci
 
       - name: Covert test results
         run: npx nyc report --reporter=json --reporter=html
