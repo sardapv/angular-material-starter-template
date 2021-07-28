@@ -8,7 +8,7 @@ module.exports = {
   preset: 'jest-preset-angular',
   setupFilesAfterEnv: ['../setup-jest.ts'],
   collectCoverage: true,
-  coverageReporters: ['json', 'html', 'text'],
+  coverageReporters: ['json', 'html'],
   coverageDirectory: '../coverage/',
   collectCoverageFrom: ['**/*.ts'],
 };

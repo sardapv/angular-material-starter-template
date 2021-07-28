@@ -2,7 +2,4 @@ package.json
 package-lock.json
 dist
 build
-cypress
-e2e
 node_modules
-environments
