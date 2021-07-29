@@ -36,8 +36,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run the tests
-        run: npm test -- --coverage
+      - name: Run unit tests
+        run: npm run test:coverage
+
+      - name: Run Cypress tests
+        run: npm run e2e:ci
+
+      - name: Convert test results
+        run: npx nyc report --reporter=lcov
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
