@@ -39,14 +39,11 @@ jobs:
       - name: Run unit tests
         run: npm run test:coverage
 
-      - name: Upload unit test coverage to Codecov
-        uses: codecov/codecov-action@v1
-
       - name: Run Cypress tests
         run: npm run e2e:ci
 
       - name: Convert test results
-        run: npx nyc report --reporter=json
+        run: npx nyc report --reporter=lcov
 
-      - name: Merge e2e coverage
+      - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
