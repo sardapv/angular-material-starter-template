@@ -118,7 +118,7 @@ ng-new-app your-app-name
 - pollyfills (for safari) '_web-animations-js_' added for animations support inside _@Component_ decorator
 - Local source analyzing tools `webpack-bundle-analyzer` and `source-map-explorer`, Local prod-build deploy and test with purgecss
 - [new✨] Pre-commit husky hook, run whatever command you want before git commit. By default prettifying changed/staged files and running lint is enabled, you can comment out run tests too. Refer .husky/pre-commit file for this operations. This helps you maintian same quality across team workspaces.
-- [new✨] Test-coverage report and its workflow (github action). Check index.html in generated coverage folder. Thanks to [@sapatgit](https://github.com/@sapatgit) for adding this.
+- [new✨] Test-coverage report and its workflow (github action). Check index.html in generated coverage folder. Thanks to [@sapatgit](https://github.com/@sapatgit) for adding this and [@sjetha](https://github.com/@sjetha) for improvising it with best solution.
 
 # There is a command for everything you need! 🧑🏻‍💻
 
