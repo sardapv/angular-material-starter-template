@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "angular.ng-template",
+    "dbaeumer.vscode-eslint",
+    "josefbiehler.cypress-fixture-intellisense",
+    "esbenp.prettier-vscode",
+    "ms-vscode.test-adapter-converter",
+    "ghaschel.vscode-angular-html",
+    "connorshea.vscode-test-explorer-status-bar"
+  ]
+}
