@@ -1,14 +1,14 @@
 require('jest-preset-angular/ngcc-jest-processor');
 module.exports = {
   moduleNameMapper: {
-    '@core/(.*)': '<rootDir>/app/core/$1',
-    '@shared/(.*)': '<rootDir>/app/shared/$1',
+    '@core/(.*)': '<rootDir>/src/app/core/$1',
+    '@shared/(.*)': '<rootDir>/src/app/shared/$1',
   },
-  rootDir: 'src',
+  roots: ['<rootDir>/src'],
   preset: 'jest-preset-angular',
-  setupFilesAfterEnv: ['../setup-jest.ts'],
+  setupFilesAfterEnv: ['./setup-jest.ts'],
   collectCoverage: true,
   coverageReporters: ['lcov'],
-  coverageDirectory: '../coverage/jest',
+  coverageDirectory: './coverage/jest',
   collectCoverageFrom: ['**/*.ts'],
 };
