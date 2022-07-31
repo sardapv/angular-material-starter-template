@@ -43,7 +43,7 @@ jobs:
       #   run: npm run e2e:ci
 
       - name: Convert test results
-        run: npx nyc report --reporter=lcov
+        run: npx nyc report --reporter=json
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v1
