@@ -1,4 +1,3 @@
-require('jest-preset-angular/ngcc-jest-processor');
 module.exports = {
   moduleNameMapper: {
     '@core/(.*)': '<rootDir>/src/app/core/$1',
@@ -11,4 +10,5 @@ module.exports = {
   coverageReporters: ['lcov'],
   coverageDirectory: './coverage/jest',
   collectCoverageFrom: ['**/*.ts'],
+  globalSetup: 'jest-preset-angular/global-setup',
 };

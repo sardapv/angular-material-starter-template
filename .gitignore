@@ -2,7 +2,7 @@
 .editorconfig
 
 .version
-
+.angular
 # compiled output
 /dist
 /tmp

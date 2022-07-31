@@ -16,6 +16,8 @@ const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
 const git_repo = 'https://github.com/sardapv/angular-material-starter-template.git';
 const features = [
+  'New Version Updatee: Now Supports, Angular, Tailwind, Jest, Cypress @ Latest',
+  '-------------------------------------------------------',
   'Scalable Project Structure, annotations configured, Global style.scss configured',
   'Angular Material Component, Icons, Typography & CDK integrated (just change _variables and colors)',
   'Utility first Tailwind CSS, some of the custom configuration added',
@@ -99,7 +101,7 @@ async function main() {
     console.log('\x1b[34m', `   1. cd ${projectName}`);
     console.log(`    2. search and replace 'ng-new-app' in all files with your app-name using editor ⚠️`);
     console.log(`    3. Edit package.json and change starting details like author, description, git url, etc.`);
-    console.log(`    4. If API calls supported, configure baseurl inenvironment*.ts files (don't end with /)`);
+    console.log(`    4. If API calls supported, configure baseurl in environment*.ts files (don't end with /)`);
     console.log('    5. Run npm start', '\x1b[0m');
     console.log();
     console.log('step 4/4 ⏳');
