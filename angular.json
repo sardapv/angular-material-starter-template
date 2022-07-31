@@ -114,7 +114,7 @@
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ng-new-app:serve:production"
+              "devServerTarget": "ng-new-app:production"
             }
           }
         },

@@ -39,8 +39,8 @@ jobs:
       - name: Run unit tests
         run: npm run test:coverage
 
-      - name: Run Cypress tests
-        run: npm run e2e:ci
+      # - name: Run Cypress tests //bug-https://github.com/cypress-io/cypress/issues/23026
+      #   run: npm run e2e:ci
 
       - name: Convert test results
         run: npx nyc report --reporter=lcov
