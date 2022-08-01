@@ -23,6 +23,10 @@ jobs:
         run: |
           npm install
 
+      - name: Install Angular CLI globally
+        run: |
+          npm install -g @angular/cli
+
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
@@ -39,11 +43,11 @@ jobs:
       - name: Run unit tests
         run: npm run test:coverage
 
-      # - name: Run Cypress tests //bug-https://github.com/cypress-io/cypress/issues/23026
-      #   run: npm run e2e:ci
+      - name: Run Cypress tests //bug-https://github.com/cypress-io/cypress/issues/23026
+        run: npm run e2e:ci
 
-      # - name: Convert test results
-      #   run: npx nyc report --reporter=json
+      - name: Convert test results
+        run: npx nyc report --reporter=json
 
-      # - name: Upload coverage to Codecov
-      #   uses: codecov/codecov-action@v1
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1

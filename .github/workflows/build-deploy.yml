@@ -20,6 +20,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+      - name: Install Angular CLI globally
+        run: |
+          npm install -g @angular/cli
       - name: Install npm dependencies
         run: |
           npm install
@@ -32,9 +35,9 @@ jobs:
       - name: Lint
         run: |
           npm run lint
-      # - name: Cypress Test // bug-doesn't return back to cli,
-      #   run: |
-      #     npm run e2e:ci
+      - name: Cypress Test
+        run: |
+          npm run e2e:ci
       - name: Test
         run: |
           npm run test
