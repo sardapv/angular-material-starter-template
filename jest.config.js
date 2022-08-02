@@ -1,4 +1,3 @@
-require('jest-preset-angular/ngcc-jest-processor');
 module.exports = {
   moduleNameMapper: {
     '@core/(.*)': '<rootDir>/src/app/core/$1',
@@ -8,7 +7,9 @@ module.exports = {
   preset: 'jest-preset-angular',
   setupFilesAfterEnv: ['./setup-jest.ts'],
   collectCoverage: true,
-  coverageReporters: ['lcov'],
+  coverageReporters: ['text', 'lcov'],
   coverageDirectory: './coverage/jest',
   collectCoverageFrom: ['**/*.ts'],
+  globalSetup: 'jest-preset-angular/global-setup',
+  testPathIgnorePattern: ['src/environments'],
 };

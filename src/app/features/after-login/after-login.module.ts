@@ -1,13 +1,13 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { ScamComponent } from '@shared/components/scam/scam.component';
+import { SharedModule } from '@shared/shared.module';
 
 import { AfterLoginRoutingModule } from './after-login-routing.module';
 import { AfterLoginComponent } from './after-login.component';
-import { SCAMDemoModule } from '../../shared/components/scam/scam.module';
-import { SharedModule } from '@shared/shared.module';
 
 @NgModule({
   declarations: [AfterLoginComponent],
-  imports: [CommonModule, AfterLoginRoutingModule, SharedModule, SCAMDemoModule],
+  imports: [CommonModule, AfterLoginRoutingModule, SharedModule, ScamComponent],
 })
 export class AfterLoginModule {}

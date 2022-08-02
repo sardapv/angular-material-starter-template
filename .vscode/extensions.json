@@ -1,9 +1,13 @@
 {
   "recommendations": [
     "angular.ng-template",
+    "bradlc.vscode-tailwindcss", // tailwind auto suggestions
+    "esbenp.prettier-vscode", //pretifier
+    "mike-co.import-sorter", //sorts imports
+    "johnpapa.Angular2", //angular snippets
+    "formulahendry.auto-rename-tag", //auto renames tags
     "dbaeumer.vscode-eslint",
     "josefbiehler.cypress-fixture-intellisense",
-    "esbenp.prettier-vscode",
     "ms-vscode.test-adapter-converter",
     "ghaschel.vscode-angular-html",
     "connorshea.vscode-test-explorer-status-bar"
