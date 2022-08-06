@@ -1,5 +1,9 @@
 # angular-material-starter-template (ng-new-app 🍄)
 
+## Package has been updated withe everything latest, if you find any issues, please report. PRs welcome
+
+_Note: Cypress RUN and Code Coverage is disabled from pipeline until officially fixed by Cypress Team_
+
 [![Lint-Prettier-Prettier:verify-Tests-CypressTests-Build-Purgecss-Deploy](https://github.com/sardapv/angular-material-starter-template/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/sardapv/angular-material-starter-template/actions/workflows/build-deploy.yml) ![GitHub](https://img.shields.io/github/license/sardapv/ng-material-starter-template) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/sardapv/angular-material-starter-template)
 
 ![logo](logoForThisRepo.png?raw=true)
