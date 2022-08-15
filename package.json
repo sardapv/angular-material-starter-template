@@ -1,6 +1,6 @@
 {
   "name": "ng-new-app",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "description": "Angular 14 boilerplate that comes with Material-UI, Tailwind3, Purgecss, Jest & Cypress Support, Optimal project structure, Interceptor with already some code, sourcemap analyzer tools, all pre-configured and much more...",
   "homepage": "https://github.com/sardapv/angular-material-starter-template#readme",
   "repository": {
