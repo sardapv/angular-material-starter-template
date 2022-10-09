@@ -1,6 +1,6 @@
 # angular-material-starter-template (ng-new-app 🍄)
 
-## Package has been updated withe everything latest, if you find any issues, please report. PRs welcome
+## Package has been updated with everything latest, if you find any issues, please report. PRs welcome
 
 _Note: Cypress RUN and Code Coverage is disabled from pipeline until officially fixed by Cypress Team_
 
